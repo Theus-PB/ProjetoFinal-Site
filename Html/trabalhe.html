@@ -57,18 +57,18 @@
        <fieldset>
             <legend><h2>Envie sua candidatura</h2></legend>
 
-        <form>
+        <form action="erro.html" method="get" target="_blank">
             <label>Nome completo:</label>
-            <input type="text" id="name" name="name" required placeholder="Digite seu nome completo"><br><br>
+            <input type="text" id="name" name="name" required placeholder="Digite seu nome completo" required><br><br>
 
             <label>E-mail:</label>
-            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail"><br><br>
+            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail" required><br><br>
 
             <label>Telefone:</label>
-            <input type="tel" id="phone" name="phone" required placeholder="Digite seu telefone"><br><br>
+            <input type="tel" id="phone" name="phone" required placeholder="Digite seu telefone" required><br><br>
 
             <label>Área de interesse:</label>
-            <select>
+            <select required>
                 <option>Engenharia</option>
                 <option>Arquitetura</option>
                 <option>Obras</option>
@@ -78,17 +78,20 @@
             </select> <br><br>
 
             <label>Tipo de oportunidade:</label>
-            <select>
+            <select required>
                 <option>Efetivo</option>
                 <option>Estágio</option>
                 <option>Jovem Aprendiz</option>
             </select> <br><br>
 
             <label>Mensagem:</label>
-            <textarea placeholder="Digite sua mensagem..."></textarea> <br><br>
+            <textarea placeholder="Digite sua mensagem..." required></textarea> <br><br>
 
             <label>Currículo:</label>
-            <input type="file"> <br><br>
+            <input type="file" required> <br><br>
+
+            <label>Teste de Robo <mark>(arraste até o fim)</mark></label> <br>
+            <input type="range" min="0" max="100" value="0" required> <br>
 
             <button type="submit">Enviar candidatura</button>
         </form> 
