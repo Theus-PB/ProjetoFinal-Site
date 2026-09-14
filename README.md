@@ -1,75 +1,52 @@
-Construtora Maciel — Site Institucional
-Sobre o projeto
+# Construtora Maciel
 
-Este projeto foi desenvolvido para a atividade de HTML Avançado da faculdade, com o objetivo de criar um site institucional para a Construtora Maciel / Maciel Locações, Construções e Incorporações LTDA.
+![Construtora Maciel](Img/Logotipo.png)
 
-O site apresenta informações sobre a empresa, seus empreendimentos, imóveis, formas de contato e oportunidades de trabalho.
+Site institucional desenvolvido para a **Construtora Maciel**, apresentando informações sobre a empresa, seus empreendimentos, imóveis, contatos e oportunidades de trabalho.
 
-Tecnologias utilizadas
+## Table of Contents
 
-HTML5;
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Páginas](#páginas)
+- [Recursos HTML Utilizados](#recursos-html-utilizados)
+- [Multimídia](#multimídia)
+- [Formulários](#formulários)
+- [Objetivo](#objetivo)
 
-HTML semântico;
+## Sobre o Projeto
 
-Recursos multimídia;
+Este projeto foi desenvolvido como atividade acadêmica de **HTML Avançado**, com o objetivo de aplicar os conhecimentos adquiridos sobre HTML5 na criação de um site institucional.
 
-Formulários HTML;
+O projeto foi desenvolvido utilizando **HTML puro**, sem a utilização de CSS ou JavaScript.
 
-Elementos interativos do HTML.
+## Estrutura do Projeto
 
-
-O projeto foi desenvolvido sem CSS e sem JavaScript, conforme as exigências da atividade.
-
-Estrutura de pastas
-
-Html/ — páginas HTML do site.
-
-Img/ — imagens utilizadas nas páginas.
-
-MP4/ — vídeos locais dos empreendimentos e da empresa.
-
-Audio/ — arquivos de áudio utilizados no site.
-
-Principais páginas
-
-Home.html — página inicial.
-
-Empreendimentos.html — apresentação dos empreendimentos.
-
-RL.html — informações do Recanto do Lazer.
-
-PS.html — informações do empreendimento Portal do Sol.
-
-Chacaras.html — informações do empreendimento Chácaras.
-
-Sobrenos.html — informações sobre a empresa.
-
-Contatos.html — formulário e informações de contato.
-
-trabalhe.html — formulário de candidatura.
-
-politicas.html — política de privacidade.
-
-erro.html — página de retorno do formulário.
-
-Recursos de HTML utilizados
-
-O projeto utiliza tags semânticas, como header, nav, main, section, article, aside e footer.
-
-Também são utilizados recursos como:
-
-Imagens com figure e figcaption;
-
-Vídeos locais com video controls;
-
-Áudio com audio controls;
-
-Formulários com campos de data, arquivo e intervalo;
-
-Elementos interativos details e summary;
-
-Elementos avançados de marcação de texto.
-
-Objetivo acadêmico
-
-O objetivo do projeto é demonstrar o aprendizado de HTML5, a organização de arquivos em pastas e a criação de um site com navegação entre páginas, formulários e recursos multimídia.
+```text
+/
+├── Html/
+│   ├── Home.html
+│   ├── Empreendimentos.html
+│   ├── RL.html
+│   ├── PS.html
+│   ├── Chacaras.html
+│   ├── Sobrenos.html
+│   ├── Contatos.html
+│   ├── trabalhe.html
+│   ├── politicas.html
+│   └── erro.html
+│
+├── Img/
+│   ├── imagens
+│   └── pastas dos empreendimentos
+│
+├── MP4/
+│   ├── RL1.mp4
+│   ├── Sobrenos.mp4
+│   ├── V22Vista.mp4
+│   └── ps.mp4
+│
+├── Audio/
+│   └── arquivos de áudio
+│
+└── README.md
