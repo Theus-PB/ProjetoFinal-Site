@@ -1,141 +1,165 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
-<header>
-    <center>
-    <img src="../Img/logotipo.png" alt="Logo" width="200" height="100">
-    </center>
-</header>
+    <header>
+        <center>
+            <img src="../Img/logotipo.png" alt="Logo" width="200" height="100">
+        </center>
+    </header>
 
-<br><br>
+    <br><br>
 
-<nav><details>
+    <nav>
+        <details>
 
-    <summary><b>Menu</b></summary>
+            <summary><b>Menu</b></summary>
+
+            <br>
+
+            <a href="Home.html"><b>Home</b></a> |
+
+            <a href="Sobrenos.html"><b>Sobre</b></a> |
+
+            <a href="Empreendimentos.html"><b>Empreendimentos</b></a> |
+
+            <a href="Contatos.html"><b>Contatos</b></a> |
+
+            <b>Trabalhe Conosco</b>
+
+        </details>
+    </nav>
+
+    <br>
+    <hr>
+
+    <header>
+        <Center>
+            <h1>Trabalhe Conosco</h1>
+            <p>Faça parte da nossa equipe!</p>
+        </Center>
+    </header>
 
     <br>
 
-    <a href="Home.html"><b>Home</b></a> |
+    <main>
 
-    <a href="Sobrenos.html"><b>Sobre</b></a> |
+        <section>
+            <h2>Venha trabalhar conosco</h2>
+            <p>
+                Faça parte do nosso time! Buscamos pessoas comprometidas, responsáveis e dispostas a crescer junto com a
+                nossa empresa. Se você deseja fazer parte dos nossos projetos e contribuir para a construção de novos
+                espaços, envie seus dados e venha trabalhar conosco.
+            </p>
+        </section>
 
-    <a href="Empreendimentos.html"><b>Empreendimentos</b></a> |
+        <section>
+            <fieldset>
+                <legend>
+                    <h2>Envie sua candidatura</h2>
+                </legend>
 
-    <a href="Contatos.html"><b>Contatos</b></a> |
+                <form action="erro.html" method="get" target="_blank">
+                    <label>Nome completo:</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required><br><br>
 
-    <b>Trabalhe Conosco</b>
+                    <label>E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail"
+                        required><br><br>
 
-</details></nav>
+                    <label>Telefone:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Digite seu telefone"
+                        required><br><br>
 
-<br><hr>
+                    <label for="cidade">Cidade:</label>
+                    <input list="cidades" id="cidade" name="cidade"> <br><br>
 
-<header>
-    <Center>
-        <h1>Trabalhe Conosco</h1>
-        <p>Faça parte da nossa equipe!</p>
-    </Center>
-</header>
+                    <datalist id="cidades">
+                        <option value="João Pessoa">
+                        <option value="Conde">
+                        <option value="Jacumã">
+                    </datalist> <br>
 
-<br> 
+                    <label>Área de interesse:</label>
+                    <select required>
+                        <option>Engenharia</option>
+                        <option>Arquitetura</option>
+                        <option>Obras</option>
+                        <option>Administração</option>
+                        <option>Marketing</option>
+                        <option>Outros</option>
+                    </select> <br><br>
 
-<main>
+                    <label>Tipo de oportunidade:</label>
+                    <select required>
+                        <option>Efetivo</option>
+                        <option>Estágio</option>
+                        <option>Jovem Aprendiz</option>
+                    </select> <br><br>
 
-    <section>
-        <h2>Venha trabalhar conosco</h2>
-        <p>
-            Faça parte do nosso time! Buscamos pessoas comprometidas, responsáveis e dispostas a crescer junto com a nossa empresa. Se você deseja fazer parte dos nossos projetos e contribuir para a construção de novos espaços, envie seus dados e venha trabalhar conosco.
-        </p>
-    </section>
+                    <label>Mensagem:</label>
+                    <textarea placeholder="Digite sua mensagem..." required></textarea> <br><br>
 
-    <section>
-       <fieldset>
-            <legend><h2>Envie sua candidatura</h2></legend>
+                    <label>Currículo:</label>
+                    <input type="file" required> <br><br>
 
-        <form action="erro.html" method="get" target="_blank">
-            <label>Nome completo:</label>
-            <input type="text" id="name" name="name" required placeholder="Digite seu nome completo" required><br><br>
+                    <label>Teste de Robo <mark>(arraste até o fim)</mark></label> <br>
+                    <input type="range" min="0" max="100" value="0" required> <br>
 
-            <label>E-mail:</label>
-            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail" required><br><br>
+                    <button type="submit">Enviar candidatura</button>
+                </form>
+            </fieldset>
+        </section>
 
-            <label>Telefone:</label>
-            <input type="tel" id="phone" name="phone" required placeholder="Digite seu telefone" required><br><br>
+        <aside>
+            <center>
+                <h2>Por que trabalhar conosco?</h2>
+                <p>Valorizamos profissionais que buscam aprender, colaborar e crescer. Aqui, cada pessoa contribui para
+                    transformar projetos em espaços que fazem parte da vida de nossos clientes.</p>
 
-            <label>Área de interesse:</label>
-            <select required>
-                <option>Engenharia</option>
-                <option>Arquitetura</option>
-                <option>Obras</option>
-                <option>Administração</option>
-                <option>Marketing</option>
-                <option>Outros</option>
-            </select> <br><br>
+                <ol>
+                    <li><b>📈 Crescimento</b></li>
+                    <p><i>Oportunidades para desenvolver suas habilidades.</i></p>
 
-            <label>Tipo de oportunidade:</label>
-            <select required>
-                <option>Efetivo</option>
-                <option>Estágio</option>
-                <option>Jovem Aprendiz</option>
-            </select> <br><br>
+                    <li><b>🤝 Equipe</b></li>
+                    <p><i>Ambiente de trabalho baseado em colaboração e respeito.</i></p>
 
-            <label>Mensagem:</label>
-            <textarea placeholder="Digite sua mensagem..." required></textarea> <br><br>
+                    <li><b>🏗️ Projetos</b></li>
+                    <p><i>Participe da construção de novos empreendimentos.</i></p>
 
-            <label>Currículo:</label>
-            <input type="file" required> <br><br>
+                </ol>
 
-            <label>Teste de Robo <mark>(arraste até o fim)</mark></label> <br>
-            <input type="range" min="0" max="100" value="0" required> <br>
+            </center>
+        </aside>
 
-            <button type="submit">Enviar candidatura</button>
-        </form> 
-    </fieldset>
-    </section>
+    </main>
 
-    <aside>
-        <center>
-            <h2>Por que trabalhar conosco?</h2>
-            <p>Valorizamos profissionais que buscam aprender, colaborar e crescer. Aqui, cada pessoa contribui para transformar projetos em espaços que fazem parte da vida de nossos clientes.</p>
-            
-            <ol>
-                <li><b>📈 Crescimento</b></li>
-                <p><i>Oportunidades para desenvolver suas habilidades.</i></p>
+    <br>
+    <hr>
 
-                <li><b>🤝 Equipe</b></li>
-                <p><i>Ambiente de trabalho baseado em colaboração e respeito.</i></p>
+    <nav>
+        <a href="Home.html"><b>Home</b></a> <br><br>
+        <a href="Sobrenos.html"><b>Sobre</b></a> <br><br>
+        <a href="Contatos.html"><b>Contatos</b></a> <br><br>
+        <a href="Empreendimentos.html"><b>Empreendimentos</b></a> <br><br>
+        <b>Trabalhe Conosco</b>
+    </nav>
 
-                <li><b>🏗️ Projetos</b></li>
-                <p><i>Participe da construção de novos empreendimentos.</i></p>
+    <hr>
 
-            </ol>
-            
-        </center>
-    </aside>
-
-</main>
-
-<br><hr>
-
-<nav>
-    <a href="Home.html"><b>Home</b></a> <br><br>
-    <a href="Sobrenos.html"><b>Sobre</b></a> <br><br>
-    <a href="Contatos.html"><b>Contatos</b></a> <br><br>
-    <a href="Empreendimentos.html"><b>Empreendimentos</b></a> <br><br>
-    <b>Trabalhe Conosco</b>
-</nav>
-
-<hr>
-
-<footer>
-    <p>© 2026 - Todos os direitos reservados <br> Maciel Locacoes, Construcoes e Incorporacoes LTDA, CNPJ 13.519.825/0001-69</p>
-    <a href="politicas.html">Política de Privacidade</a>
-</footer>
+    <footer>
+        <p>© 2026 - Todos os direitos reservados <br> Maciel Locacoes, Construcoes e Incorporacoes LTDA, CNPJ
+            13.519.825/0001-69</p>
+        <a href="politicas.html">Política de Privacidade</a>
+    </footer>
 
 </body>
+
 </html>
