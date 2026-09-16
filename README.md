@@ -8,14 +8,14 @@ Site institucional desenvolvido para a **Construtora Maciel**, apresentando info
 
 ## 📑 Sumário
 
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Páginas](#páginas)
-- [Recursos HTML Utilizados](#recursos-html-utilizados)
-- [Multimídia](#multimídia)
-- [Formulários](#formulários)
-- [Objetivo](#objetivo)
-- [Créditos](#créditos)
+- [Sobre o Projeto]
+- [Estrutura do Projeto]
+- [Páginas]
+- [Recursos HTML Utilizados]
+- [Multimídia]
+- [Formulários]
+- [Objetivo]
+- [Créditos]
 
 ---
 
